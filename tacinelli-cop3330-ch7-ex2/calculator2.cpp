@@ -140,7 +140,7 @@ double squareroot(){
 }
 
 double pow(){
-	t = ts.get();
+	Token t = ts.get();
 	if (t.kind == '(') {
 		double lval = primary();
 		int rval = 0;
